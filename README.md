@@ -18,11 +18,12 @@ automatically. Built for the Google Gemma Hardware Hackathon (AGI House, Oct 24 
 
 > Updating the app keeps the model. **Uninstalling deletes it**, so update instead of reinstalling.
 
-## Auto-update (optional)
+## Updates
 
-Install [Obtainium](https://github.com/ImranR98/Obtainium/releases/latest), tap **Add app**, paste
-`https://github.com/vib2810/gemma-triage`, and tap **Add**. Obtainium checks this page for new
-releases and installs them for you.
+The app updates itself. At launch it checks this page; on Wi-Fi it downloads a new version in the
+background and shows **Update x.y ready · Install** on the Board. The first time, Android asks you to
+allow "install unknown apps" for Gemma Triage and to confirm; later updates install with one tap.
+Tags and the model are kept. You can turn checking off in **Team → App updates**.
 
 ## Using it
 
@@ -34,4 +35,4 @@ releases and installs them for you.
 - **Team**: nearby phones and sync status, rename this phone (e.g. "Medic 1"), model and backend.
 
 The model is [Gemma 4 E2B (LiteRT-LM)](https://huggingface.co/litert-community/gemma-4-E2B-it-litert-lm),
-Apache-2.0. The app has no internet permission.
+Apache-2.0. Gemma and phone-to-phone sync never use the internet; the only network use is the update check.
