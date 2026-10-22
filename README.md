@@ -36,3 +36,21 @@ Tags and the model are kept. You can turn checking off in **Team → App updates
 
 The model is [Gemma 4 E2B (LiteRT-LM)](https://huggingface.co/litert-community/gemma-4-E2B-it-litert-lm),
 Apache-2.0. Gemma and phone-to-phone sync never use the internet; the only network use is the update check.
+
+## Lab apps (experiments)
+
+Separate apps that share the same model file. They read `gemma-4-E2B-it.litertlm` straight from your
+**Downloads** folder, so there's no second 2.6 GB copy. Install them from their release tags (they are never
+"latest", so Gemma Triage's updater ignores them):
+
+- **Gemma Pilot** ([releases tagged `pilot-v*`](https://github.com/vib2810/gemma-triage/releases?q=pilot&expanded=true)).
+  Tell the phone what to do ("turn on Do Not Disturb"). Gemma reads the screen and taps through it,
+  fully on the phone. After installing: open it, tap **Allow access** (All files access), then
+  **Open Accessibility settings → Gemma Pilot → On**. If that switch is greyed out, go to
+  *App info → ⋮ → Allow restricted settings* first.
+- **Gemma Lens** ([releases tagged `lens-v*`](https://github.com/vib2810/gemma-triage/releases?q=lens&expanded=true)).
+  Take or pick a photo and **Ask**, **Point**, **Find all** (boxes), **Read** or **Describe**. Voice questions work too.
+  After installing: open it and tap **Allow access**.
+
+If you deleted the model from Downloads after importing it into Gemma Triage, download it again
+(the app's **Download** button) and wait until the download finishes.
