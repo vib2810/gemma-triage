@@ -37,6 +37,24 @@ Tags and the model are kept. You can turn checking off in **Team → App updates
 The model is [Gemma 4 E2B (LiteRT-LM)](https://huggingface.co/litert-community/gemma-4-E2B-it-litert-lm),
 Apache-2.0. Gemma and phone-to-phone sync never use the internet; the only network use is the update check.
 
+## Assistive apps (new)
+
+Both read the same `gemma-4-E2B-it.litertlm` from your **Downloads** folder (no second copy). After
+installing, open the app and tap **Allow access**.
+
+- **Gemma Eyes** ([releases tagged `eyes-v*`](https://github.com/vib2810/gemma-triage/releases?q=eyes&expanded=true)).
+  Vision assist for blind and low-vision people: **shake the phone** and it says the biggest hazard
+  ahead, then describes the scene. **Ask** a question by voice, **Find** a door or chair with
+  left/right guidance, **Read** signs, or turn on **Walk mode**, which speaks only when the view
+  changes. It's a description aid, not an obstacle detector.
+- **Gemma Memory** ([releases tagged `memory-v*`](https://github.com/vib2810/gemma-triage/releases?q=memory&expanded=true)).
+  A memory companion for people who forget. Tap **Remember** and say it in your own words (or add a
+  photo); Gemma files it and reads back what it understood. Tap **Ask**: "Where are my keys?" gets the
+  answer, when you said it, and your own recording. Reminders, a daily recap, and an **example day**
+  in Settings to try it at once. **Family sharing**: give phones the same family code and a caregiver's
+  phone sees the memories and can add reminders that ring on every family phone (works without the
+  model on the caregiver's phone).
+
 ## Lab apps (experiments)
 
 Separate apps that share the same model file. They read `gemma-4-E2B-it.litertlm` straight from your
