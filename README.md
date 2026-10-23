@@ -55,6 +55,11 @@ installing, open the app and tap **Allow access**.
   phone sees the memories and can add reminders that ring on every family phone (works without the
   model on the caregiver's phone).
 
+- **Gemma Companion** ([releases tagged `companion-v*`](https://github.com/vib2810/gemma-triage/releases?q=companion&expanded=true)).
+  Eyes and Memory in one app for one person: **See**, **Remember**, **Settings** tabs (shake works
+  from any tab). Ask "Where are my glasses?", get "on the bedside table", then tap **Help me find
+  it** and the camera guides you to them.
+
 ## Lab apps (experiments)
 
 Separate apps that share the same model file. They read `gemma-4-E2B-it.litertlm` straight from your
